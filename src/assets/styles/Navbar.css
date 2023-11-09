@@ -9,12 +9,16 @@ nav {
 ul {
   list-style: none;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   padding: 0;
 }
 
 li {
   margin: 0 20px;
+}
+
+li:first-child {
+  margin-right: auto;
 }
 
 a {
